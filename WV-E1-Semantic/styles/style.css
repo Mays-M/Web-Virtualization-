@@ -1,0 +1,32 @@
+li{
+color: white;
+display: inline;
+  position: inherit;
+  padding: 8px 0;
+
+}
+  
+a{
+    color:brown
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+footer{
+background-color:black;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    grid-column: contain;
+    justify-content: space-between;
+    color:white;
+
+
+  }

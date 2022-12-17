@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Responsive-design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/0c6e0d587d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <article class='page'>
+      <header class='section menu'></header>
+      <nav class='section header'>
+        <div class='photo'>
+          <picture>
+            <source media='(min-width: 401px)'
+                    srcset='images/photo-big.jpg'/>
+            <source media='(max-width: 400px)'
+                    srcset='images/photo-tall.jpg'/>
+            <img src='images/photo-small.jpg'/>
+          </picture>
+        </div>
+      </nav>
+      <section class='section content'>
+        <div class='illustration'>
+          <img src='images/illustration-big.png' style='max-width: 500px'/>
+        </div>
+      </section>
+      <section class='section sign-up'>
+        <img src="images/sign-up.svg"/>
+      </section>
+      <section class='section feature-1'>
+        <img src='images/feature.svg'/>
+      </section>
+      <section class='section feature-2'>
+        <img src='images/feature.svg'/>
+      </section>
+      <section class='section feature-3'>
+        <img src='images/feature.svg'/>
+      </section>
+    </article>
+  </body>
+</html>

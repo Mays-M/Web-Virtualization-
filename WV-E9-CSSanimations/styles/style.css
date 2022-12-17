@@ -1,0 +1,45 @@
+body{
+    padding: 50px;
+}
+
+.trigger ,.trigger2{
+    width: 200px;
+    height: 200px;
+    border: 20px solid #999;
+    background: #ddd;
+}
+
+.box ,.box2{
+    display: inline-block;
+    background: pink;
+    height: 160px;
+    width: 160px;
+    transition: transform 300ms ease-in-out;
+   
+}
+.trigger:active .box  {
+    transform: translate(200px, 150px) ;
+}
+.trigger2:hover .box2  {
+    transform: translate(200px, 150px) rotate(-10deg);
+}
+
+.box3{
+    display: inline-block;
+    background: pink;
+    height: 160px;
+    width: 160px;
+    animation: myframes 2s ease-in-out 0s infinite;
+}
+@keyframes myframes{
+    0%{
+    height: 200px;}
+    30% , 100%{
+        width: 400px;
+    }
+    70%{
+        height: 600px;
+        background: orange;
+    }
+}
+
