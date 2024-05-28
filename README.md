@@ -1,4 +1,5 @@
-Semantic: 
+Semantic: https://mays-m.github.io/Web-Visualization/WV-E1-Semantic/article.html
+
 
 Prototyping-SVG:
 
